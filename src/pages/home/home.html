@@ -1,0 +1,58 @@
+<ion-header  >
+
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+  
+   <p style="text-align: center; color: #fff; font-size: 25px"><img src="http://voli.putralab.com/voli/assets/imgs/volleyball.png"> <br> VOLLEYPINTAR</p>
+   
+    
+  </div>
+</div>
+   <ion-navbar >
+    <ion-title><p style="margin-top: 80px">Home</p></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="body" padding>
+
+  <ion-grid>
+   <ion-row>
+  
+    <ion-col col-6 > 
+    <div style="text-align: center; background-color: #fff;">
+      <ion-card-content>
+
+        <button style="background-color: #fff; margin-top: 25px;margin-bottom: 25px" (click)="main('MateriPage')"><img class="img-logo" src="http://voli.putralab.com/voli/assets/imgs/materi.png" alt=""><br><br>materi</button>
+      </ion-card-content>
+      </div>
+    </ion-col>
+
+     <ion-col col-6>
+     <div style="text-align: center;background-color: #fff">
+      <ion-card-content>
+        <button style="background-color: #fff;margin-top: 25px;margin-bottom: 25px" (click)="main('QuizselectPage')"><img class="img-logo" src="http://voli.putralab.com/voli/assets/imgs/quiz.png" alt=""><br><br>quiz</button>
+      </ion-card-content>
+      </div>
+    </ion-col>
+
+     
+<!--  
+     <ion-col col-6>
+     <div style="text-align: center;background-color: #fff">
+      <ion-card-content>
+        <button style="background-color: #fff;margin-top: 25px;margin-bottom: 25px" ><img class="img-logo" src="../assets/imgs/tutorial.png" alt=""><br><br>tutorial</button>
+      </ion-card-content>
+      </div>
+    </ion-col>
+    -->
+
+    <ion-col col-6>
+     <div style="text-align: center;background-color: #fff">
+      <ion-card-content>
+        <button style="background-color: #fff;margin-top: 25px;margin-bottom: 25px" (click)="main('AboutPage')"><img class="img-logo" src="http://voli.putralab.com/voli/assets/imgs/tentang.png" alt=""><br><br>tentang kami</button>
+      </ion-card-content>
+      </div>
+    </ion-col>
+    </ion-row>
+    </ion-grid>
+</ion-content>
